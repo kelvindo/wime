@@ -1,0 +1,64 @@
+<div>
+<img style="display:block; position: relative; margin:auto" src="Wi Me.png" height="350" width="1000"/>
+</div>
+
+<div align="center">
+<body text="#00FFFF">
+
+<style type="text/css" rel="stylesheet">
+#choosefile { background-color: #000; font-size: 150%; 
+    padding: 20px; font-weight: bold; font-family: Rockwell; color: cyan;}
+</style>
+<form enctype="multipart/form-data" action="upload.php" method="POST">
+<input name = "uploaded" input type="file" id="choosefile" value="Choose File" />
+
+
+<table>
+<tr>
+<td style= "width: 100%;">
+
+<table>
+<tr>
+<td> 
+<form enctype="multipart/form-data" action="upload.php" method="POST">
+<style type="text/css" rel="stylesheet">
+#mypush { background-color: #000; font-size: 145%; 
+    padding: 10px; padding-top: 70px; padding-bottom: 12px; font-weight: bold; font-family: Rockwell; color: cyan;}
+</style>
+<input type="submit" id="mypush" value="PUSH!" display: inline-block; }/>
+</form>
+</td>			
+
+<td> 
+<form>
+<style type="text/css" rel="stylesheet">
+#nowplaying { position: relative; top: 21px; background-color: #000; font-size: 200%; 
+    padding: 15px; padding-top: 30px; padding-bottom: 15px; font-weight: bold; font-family: Rockwell; color: deeppink; }
+</style>
+<input type="submit" id="nowplaying" value="Now Playing"/>
+</form>
+</td>
+
+<td>
+<!--<form enctype="multipart/form-data" action="python pop.py" method="POST">-->
+<style type="text/css" rel="stylesheet" >
+#mypop { position: relative; top: 7px; background-color: #000; font-size: 145%; 
+    padding: 17px; padding-top: 70px; padding-bottom: 12px; font-weight: bold; font-family: Rockwell; color: cyan; }
+</style>
+<input type="button" id="mypop" value="POP!" onClick="<? exec('python pop.py'); ?>" display: inline-block; }/>
+<!--</form>-->
+</td>
+</tr>
+
+</td>
+</tr>
+</table>
+
+
+
+<body bgcolor="#000000"> 
+
+<!--<form enctype="multipart/form-data" action="upload.php" method="POST">
+Please choose a file: <input name="uploaded" type="file" /><br />
+<input type="submit" value="Upload" />
+</form>--> 
